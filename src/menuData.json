@@ -1,0 +1,290 @@
+[
+    {
+        "id": "vue",
+        "idx": 0,
+        "parentId": "root",
+        "name": "Root",
+        "depth": 1,
+        "hasChild": true,
+        "url": "/",
+        "children": [
+            {
+                "id": "vue.setting",
+                "idx": 1,
+                "parentId": "vue",
+                "name": "0. Vue.js 개발환경 설정",
+                "depth": 2,
+                "hasChild": false,
+                "url": "/set"
+            },
+            {
+                "id": "vue.overview",
+                "idx": 2,
+                "parentId": "vue",
+                "name": "1. Overview",
+                "depth": 2,
+                "hasChild": false,
+                "url": "/overview"
+            },
+            {
+                "id": "vue.base",
+                "idx": 3,
+                "parentId": "vue",
+                "name": "2. 기본 개념",
+                "depth": 2,
+                "hasChild": true,
+                "url": "/base",
+                "children": [
+                    {
+                        "id": "vue.base.mandatory",
+                        "idx": 31,
+                        "parentId": "vue.base",
+                        "name": "2-1. 필수 개념",
+                        "depth": 3,
+                        "hasChild": true,
+                        "url": "/base/mandatory",
+                        "children": [
+                            {
+                                "id": "vue.base.mandatory.spa",
+                                "idx": 311,
+                                "parentId": "vue.base.mandatory",
+                                "name": "2-1-1. SPA",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/base/mandatory/spa"
+                            },
+                            {
+                                "id": "vue.base.mandatory.webpack",
+                                "idx": 312,
+                                "parentId": "vue.base.mandatory",
+                                "name": "2-1-2. Webpack",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/base/mandatory/webpack"
+                            },
+                            {
+                                "id": "vue.base.mandatory.npm",
+                                "idx": 313,
+                                "parentId": "vue.base.mandatory",
+                                "name": "2-1-3. Npm",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/base/mandatory/npm"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "vue.base.optional",
+                        "idx": 32,
+                        "parentId": "vue.base",
+                        "name": "2-2. 선택 개념",
+                        "depth": 3,
+                        "hasChild": true,
+                        "url": "/base/optional",
+                        "children": [
+                            {
+                                "id": "vue.base.optional.scss",
+                                "idx": 321,
+                                "parentId": "vue.base.optional",
+                                "name": "2-2-1. SCSS",
+                                "depth": 3,
+                                "hasChild": false,
+                                "url": "/base/optional/scss"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "vue.skill",
+                "idx": 4,
+                "parentId": "vue",
+                "name": "3. Vue.js 활용하기",
+                "depth": 2,
+                "hasChild": true,
+                "url": "/skill",
+                "children": [
+                    {
+                        "id": "vue.skill.architecture",
+                        "idx": 41,
+                        "parentId": "vue.skill",
+                        "name": "3-1. Architecture",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/skill/architecture"
+                    },
+                    {
+                        "id": "vue.skill.router",
+                        "idx": 42,
+                        "parentId": "vue.skill",
+                        "name": "3-2. Router",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url":  "/skill/router"
+                    },
+                    {
+                        "id": "vue.skill.axios",
+                        "idx": 43,
+                        "parentId": "vue.skill",
+                        "name": "3-3. Axios(ajax)",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/skill/axios"
+                    },
+                    {
+                        "id": "vue.skill.structure",
+                        "idx": 44,
+                        "parentId": "vue.skill",
+                        "name":  "3-4. Vue File Structure",
+                        "depth": 3,
+                        "hasChild": true,
+                        "url":  "/skill/structure",
+                        "children": [
+                            {
+                                "id": "vue.skill.structure.summary",
+                                "idx": 441,
+                                "parentId": "vue.skill.structure",
+                                "name": "3-4-1. Summary",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/skill/structure/summary"
+                            },
+                            {
+                                "id": "vue.skill.structure.template",
+                                "idx": 442,
+                                "parentId": "vue.skill.structure",
+                                "name": "3-4-2. template",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/skill/structure/template"
+                            },
+                            {
+                                "id": "vue.skill.structure.script",
+                                "idx": 443,
+                                "parentId": "vue.skill.structure",
+                                "name": "3-4-3. script",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/skill/structure/script"
+                            },
+                            {
+                                "id": "vue.skill.structure.style",
+                                "idx": 444,
+                                "parentId": "vue.skill.structure",
+                                "name": "3-4-4. style",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/skill/structure/style"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "vue.skill.component",
+                        "idx": 45,
+                        "parentId": "vue.skill",
+                        "name": "3-5. Component",
+                        "depth": 3,
+                        "hasChild": true,
+                        "url": "/skill/component",
+                        "children": [
+                            {
+                                "id": "vue.skill.structure.summary",
+                                "idx": 451,
+                                "parentId": "vue.skill.component",
+                                "name": "3-5-1. Summary",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/skill/component/summary"
+                            },
+                            {
+                                "id": "vue.skill.structure.custom",
+                                "idx": 452,
+                                "parentId": "vue.skill.component",
+                                "name": "3-5-2. Custom",
+                                "depth": 4,
+                                "hasChild": false,
+                                "url": "/skill/component/custom"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "vue.skill.store",
+                        "idx": 46,
+                        "parentId": "vue.skill",
+                        "name": "3-6. Store(Vuex)",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/skill/store"
+                    }
+                ]
+            },
+            {
+                "id": "vue.trouble",
+                "idx": 5,
+                "parentId": "vue",
+                "name": "4. Trouble Shooting",
+                "depth": 2,
+                "hasChild": true,
+                "url": "/trouble",
+                "children": [
+                    {
+                        "id": "vue.trouble.memory",
+                        "idx": 51,
+                        "parentId": "vue.trouble",
+                        "name": "4-1. Memory leak",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/trouble/memory"
+                    },
+                    {
+                        "id": "vue.trouble.performance",
+                        "idx": 51,
+                        "parentId": "vue.trouble",
+                        "name": "4-2. Performance",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/trouble/performance"
+                    }
+                ]
+            },
+            {
+                "id": "vue.starter",
+                "idx": -1,
+                "parentId": "vue",
+                "name": "-1. 별첨 : Vue 스타터 프로젝트",
+                "depth": 2,
+                "hasChild": true,
+                "url": "/starter",
+                "children": [
+                    {
+                        "id": "vue.starter.install",
+                        "idx": -11,
+                        "parentId": "vue.starter",
+                        "name": "-1+1. 일단 서버켜기",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/starter/install"
+                    },
+                    {
+                        "id": "vue.starter.directory",
+                        "idx": -12,
+                        "parentId": "vue.starter",
+                        "name":  "-1+2. 프로젝트 헤쳐보기",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/starter/directory"
+                    },
+                    {
+                        "id": "vue.starter.playground",
+                        "idx": -13,
+                        "parentId": "vue.starter",
+                        "name": "-1+3. 가지고 놀기",
+                        "depth": 3,
+                        "hasChild": false,
+                        "url": "/starter/playground"
+                    }
+                ]
+            }
+        ]
+    }
+]

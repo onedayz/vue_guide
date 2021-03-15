@@ -1,5 +1,5 @@
 <template>
-    <div class="not-found">
+    <div class="not-found content-page">
         <h1>404 Not Found</h1>
     </div>
 </template>
@@ -13,6 +13,6 @@ export default {
 <style scoped lang="scss">
 .not-found{
     display: flex; justify-content: center; align-items: center;
-    background-color: $color__indigo-500; color: $color__white;
+    height: 100vh;
 }
-</style>
+</style>r

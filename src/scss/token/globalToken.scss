@@ -7,7 +7,12 @@ $third__color: $color__indigo-200 !default;
 $fourth__color: $color__indigo-50 !default;
 
 $frame-head__height: 48px !default;
-$font__color-default: #eee !default;
+$frame-side__width: 280px;
+$frame-side__width-folding: 36px;
+$frame-side__title-height: 64px;
+$frame-side__padding: 48px;
+
+$font__color-default: #333 !default;
 $font__size-default: 12px !default;
 
 $component__default-border-width: 1px !default;
@@ -15,6 +20,11 @@ $component__default-border-radius: 4px !default;
 $component__default-height: 24px !default;
 $component__default-min-width: 60px !default;
 $component__default-padding: 0 4px !default;
+
+$border__default: 1px solid $color__blue-gray-300;
+$menu__fold-time: 0.5s;
+$frame-side__fold-time: 0.8s;
+
 
 // [toy-button]
 $toy-button__min-width: $component__default-min-width;

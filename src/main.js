@@ -1,6 +1,6 @@
 import {createApp} from 'vue'
 import App from './App'
-import router from './router/router_main'
+import router from './router'
 import toyComponents from '@/components'
 
 const app = createApp(App);

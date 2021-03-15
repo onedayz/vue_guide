@@ -8,7 +8,7 @@ import FrontEnd from '@page/frontEnd';
 import RouterExample from '@page/router/routerExample';
 import NotFound from '@page/notFound';
 
-const router_main = [
+const index = [
     { path: '/', redirect: '/home' },
     { path: '/home', component: Home },
     { path: '/content', component: Content },
@@ -26,7 +26,7 @@ const router_main = [
 
 const router = createRouter({
     history: createWebHashHistory(),
-    routes: router_main
+    routes: index
 });
 
 router.beforeEach((to,from,next) => {

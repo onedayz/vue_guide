@@ -7,7 +7,7 @@ module.exports = {
     filenameHashing: true,
     configureWebpack: {
         resolve: {
-            extensions: ['.js', '.vue'], //확장자를 제거하고 불러낼수 있다.
+            extensions: ['.js', '.vue', '.json'], //확장자를 제거하고 불러낼수 있다.
             alias: {
                 '@': path.join(__dirname, 'src'),
                 '@assets': path.join(__dirname, 'src/assets'),
@@ -32,6 +32,7 @@ module.exports = {
             }
         }
     },
+    runtimeCompiler: true,
     // 전역 사용해야 하는 scss 토큰 있으면 아래 구문 주석 해제
     css: {
         loaderOptions: {
