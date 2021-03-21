@@ -23,7 +23,7 @@ export default {
 
 <style scoped lang="scss">
 .app-content{
-    position: relative;
+    position: relative; overflow-y: auto;
     left: $frame-side__width; transition: width $frame-side__fold-time;
     height: 100vh; width: calc(100% - #{$frame-side__width});
 }

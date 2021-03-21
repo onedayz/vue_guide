@@ -30,10 +30,12 @@ export default {
 <style scoped lang="scss">
 .menu-frame{
     position: absolute; top:$frame-side__title-height;
-    padding: $frame-side__padding 0;
+    padding: 0 0 $frame-side__padding 0;
     min-height: 32px; width: 100%;
     border-top: $border__default;
-    opacity: 1; height: calc(100vh - (#{$frame-side__title-height} + #{$frame-side__padding} * 2)); overflow-y: auto;
+    opacity: 1;
+    height: calc(100vh - #{$frame-side__title-height} - #{$frame-side__padding});
+    overflow-y: auto;
 }
 </style>
 <style lang="scss">

@@ -25,7 +25,7 @@ export default {
     },
     data(){
         return{
-            folding: false,
+            foldable: true
         }
     },
     methods: {
@@ -36,7 +36,16 @@ export default {
             let childMenuGroup = document.getElementsByClassName('menu-child__' + mIdx)[0];
             childMenuGroup.style['opacity'] = childMenuGroup.style['opacity'] !== '0'? '0' : '1';
             childMenuGroup.style['max-height'] = childMenuGroup.style['max-height'] !== '0px'? '0px' : '1000px';
-            childMenuGroup.classList.toggle('menu-folding');
+
+            // if(!childMenuGroup.classList.contains('menu-folding') && this.foldable){
+            //     setTimeout(() => {
+            //         childMenuGroup.classList.add('menu-folding');
+            //         this.foldable = false;
+            //     }, 500);
+            // } else{
+            //     childMenuGroup.classList.remove('menu-folding');
+            //     this.foldable = true;
+            // }
         },
         moveTo(url){
             this.$router.push(url);
@@ -52,7 +61,7 @@ $_unit-height: 50px;
     height: auto;
     cursor: pointer;
 }
-.menu-folding > .menu-unit{pointer-events: none; cursor: default;}
+.menu-folding > .menu-unit{display: none;}
 .menu-name{
     width:auto;position: relative;min-height: $_unit-height;
     padding: 0 $_unit-padding; line-height: $_unit-height;
