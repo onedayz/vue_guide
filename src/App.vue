@@ -31,11 +31,23 @@ export default {
 </style>
 
 <style lang="scss">
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Noto Sans KR Regular"), local("NotoSansKR-Regular"), url('~@assets/font/NotoSansKR-Regular.otf');
+}
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 700;
+    src: local("Noto Sans KR Bold"), local("NotoSansKR-Bold"), url('~@assets/font/NotoSansKR-Bold.otf');
+}
 body{
     color: $font__color-default;
     background-color: $color__gray-50;
     overflow-y: hidden;
-
+    font-family: "Noto Sans KR", Arial, sans-serif;
 }
 .app-content.folding{width: calc(100% - #{$frame-side__width-folding}); left: $frame-side__width-folding;}
 @import '~@/scss/globalClass.scss';

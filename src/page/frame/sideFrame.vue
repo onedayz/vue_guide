@@ -1,6 +1,6 @@
 <template>
     <div class="lnb-frame" :class="{'folding' : foldable}">
-        <div class="title">
+        <div class="title" @click="$router.push('/home')">
             <h2>Vue.js Guide</h2>
         </div>
         <toy-icon class="folding-icon" icon="angle-up" size="18" @click="toggleSide"></toy-icon>
@@ -46,7 +46,7 @@ export default {
     .title{
         width: $frame-side__width; height: $frame-side__title-height;
         display: flex; align-items: center;padding: 0 12px;
-        transition: transform $frame-side__fold-time;
+        transition: transform $frame-side__fold-time; cursor: pointer;
     }
     .presented-label{
         position: absolute; bottom: 4px; right: 26px;

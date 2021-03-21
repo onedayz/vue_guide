@@ -8,7 +8,58 @@
 }
 
 .content-page{
-    width: 680px;
+    width: 750px;
     margin: auto;
     padding-top: 60px;
+    font-size: 12px;
+    .main-title{
+        font-size: $font__size-title; font-weight: 700;
+        padding-bottom: 12px;
+    }
+    .sub-title{font-size: 18px; font-weight: 700; margin-bottom: 6px;}
+    .third-title{font-size: 16px !important; margin-bottom: 4px !important; font-weight: 700 !important;}
+    .fourth-title{font-weight: 700 !important; margin-bottom: 2px !important;}
+    .index{color: $color__vue;}
+
+    .content-box{
+        margin-top: 20px;
+        .content-level-1{
+            padding: 0 10px; margin-bottom: 16px;
+        }
+        .content-level-2{
+            padding: 0 10px; margin-bottom: 12px;
+
+        }
+        .image-box{
+            display: flex;flex-direction: column; margin: 10px 0;
+            text-align: center;align-items: center;
+            img{max-width: 720px;}
+            .under-text{font-size: 12px; color: #aaa;margin:4px 0;}
+        }
+        p{margin: 0; font-size:14px; font-weight: normal; line-height: 22px;}
+        .gray-box{
+            padding: 10px 10px 10px 15px; margin: 5px;
+            border-left: 4px solid #ddd; background-color: #eee;
+            p{margin: 0; font-size:14px; font-weight: normal;}
+        }
+        a{color:rgba($primary__color, 0.8);cursor: pointer; font-weight: bold;}
+        .inner-link{color:rgba($primary__color, 0.8);cursor: pointer;}
+        .inner-link:hover{text-decoration: underline;}
+    }
+    .content-box:last-child{margin-bottom:30px;}
+    hr{border-top: 1px solid $color__gray-400; border-bottom: none;}
+
+    .bottom-navigation{
+        position: relative;height: 32px;
+        margin-bottom: 36px; font-size: 14px;
+        color: $color__vue; font-weight: bold;
+        .left{left:10px;}
+        .right{right:10px;}
+        .left, .right{
+            position: absolute; display: flex; align-items: center;
+            cursor: pointer; padding: 6px 4px; padding: 6px 4px;
+            &:hover{background-color: $color__gray-200;}
+            &:active{background-color: $color__gray-300;}
+        }
+    }
 }
