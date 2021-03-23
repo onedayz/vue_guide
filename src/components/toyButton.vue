@@ -18,7 +18,7 @@ export default defineComponent({
     line-height: calc(#{$toy-button__height} + 2px);
     min-width: $toy-button__min-width;
     background-color: $toy-button__background-color;
-    color: #333;
+    color: $font__color-default;
     border: $toy-button__border-width solid $color__gray-300;
     border-radius: $toy-button__border-radius;
     padding: $component__default-padding;

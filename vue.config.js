@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     publicPath: '/',
-    outputDir: 'dist',
+    outputDir: 'docs',
     assetsDir: 'assets', // prefix 'dist/'
     filenameHashing: true,
     configureWebpack: {
@@ -14,13 +14,13 @@ module.exports = {
                 '@page': path.join(__dirname, 'src/page'),
             }
         },
-        devtool: 'source-map'
+        devtool: 'source-map',
     },
     pages: {
         index: {
             entry: 'src/main.js',
             template: 'public/index.html',
-            title: 'Vue Starter',
+            title: 'Vue Guide',
             filename: 'index.html'
         }
     },
@@ -42,6 +42,7 @@ module.exports = {
                 additionalData: `@import "@/scss/token/globalToken.scss";`//
             }
         }
-    }
+    },
+
 }
 

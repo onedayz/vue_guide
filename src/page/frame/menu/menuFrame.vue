@@ -14,8 +14,7 @@ export default {
     props: {menus: {type: Array, default: () => []}},
     data() {
         return {
-            menuData: menuData,
-            currentUrl: ''
+            menuData: menuData
         }
     },
     methods: {

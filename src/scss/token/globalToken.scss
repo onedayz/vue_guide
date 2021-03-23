@@ -1,4 +1,4 @@
-@import './googleColorToken.scss';
+@import '~@/scss/token/googleColorToken.scss';
 
 $color__vue : #41b883 !default;
 $primary__color: $color__indigo-600 !default;
@@ -7,10 +7,10 @@ $third__color: $color__indigo-200 !default;
 $fourth__color: $color__indigo-50 !default;
 
 $frame-head__height: 48px !default;
-$frame-side__width: 280px;
-$frame-side__width-folding: 36px;
-$frame-side__title-height: 64px;
-$frame-side__padding: 48px;
+$frame-side__width: 280px !default;
+$frame-side__width-folding: 36px !default;
+$frame-side__title-height: 64px !default;
+$frame-side__padding: 48px !default;
 
 $font__color-default: #333 !default;
 $font__size-default: 12px !default;

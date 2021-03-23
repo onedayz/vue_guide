@@ -40,7 +40,7 @@ export default {
     position: absolute;
     left: 0;top: 0;
     width: $frame-side__width; height: 100vh;
-    background-color: $color__blue-gray-800;
+    background-color: $color__teal-800;//$color__blue-gray-800;
     transition: width $frame-side__fold-time, color $frame-side__fold-time;
     color: $color__gray-200;
     .title{
@@ -50,7 +50,7 @@ export default {
     }
     .presented-label{
         position: absolute; bottom: 4px; right: 26px;
-        font-weight: bold; font-size: 12px; color: $color__blue-gray-300;
+        font-weight: bold; font-size: 12px; color: $color__blue-gray-200;
         transition: top $frame-side__fold-time;
     }
     .folding-icon{
