@@ -62,7 +62,7 @@ const index = [
     { path: '/skill/component',  redirect: '/skill/component/summary'},
     { path: '/skill/component/summary',  component: ComponentSummary},
     { path: '/skill/component/custom',  component: Custom},
-    { path: '/skill/component/store',  component: Store},
+    { path: '/skill/store',  component: Store},
 
     { path: '/trouble',  redirect: '/trouble/memory'},
     { path: '/trouble/memory',  component: Memory},

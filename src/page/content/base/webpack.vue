@@ -86,9 +86,9 @@
                     그렇기에 그림의 1~3번은 다음과 같은 역할을 합니다.
                 </p>
                 <div class="gray-box">
-                    <p><b>1번</b>과 같이 전역으로 필요한 라이브러리 및 라우터같은 설정파일들을 import 해주는 경우가 많으며</p>
-                    <p><b>2번</b>처럼 import해서 가져온 모듈들을 Vue Application 객체에 심어둘 수도 있고</p>
-                    <p><b>3번</b>처럼 생성된 Vue Application 객체가 렌더링되어 마운트 될 대상을 지정해줌으로써,</p>
+                    <p><b>1번</b>과 같이 전역으로 필요한 라이브러리 및 라우터같은 설정파일들을 import 해주며</p>
+                    <p><b>2번</b>처럼 Vue 3.x 버전에서는 createApp function을 통해 Vue Application 인스턴스를 생성하고</p>
+                    <p><b>3번</b>처럼 생성된 Vue Application 객체에 필요한 모듈들을 전역에서 활용할 수 있게 심어줌으로써,</p>
                     <p>우리가 하고자 하는 Vue.js기반의 개발을 할 수 있도록 환경을 구성해주는 것입니다.</p>
                 </div>
                 <p>
@@ -143,8 +143,8 @@
                     <img src="@assets/example/resolve_detail.jpg"/>
                     <span class="under-text">[ resolve를 통한 import 설정 ]</span>
                 </div>
-                <p class="fourth-title">1) extensions</p>
                 <div class="content-level-2">
+                    <p class="fourth-title">1) extensions</p>
                     <p>
                         파일의 확장자를 묵시적으로 처리해줍니다.
                         import를 사용하여 타 모듈을 사용할 시에,
@@ -155,8 +155,9 @@
                         Webpack에 의해 알맞은 파일들이 모듈로써 import 되게 되는 것입니다.
                     </p>
                 </div>
-                <p class="fourth-title">2) alias</p>
+
                 <div class="content-level-2">
+                    <p class="fourth-title">2) alias</p>
                     <p>
                         약어의 의미로 사용되며 여기에서의 약어란, 모듈 기반으로 아키텍쳐가 구성되어있는 상태에서
                         각각의 모듈이 import를 통해 타 모듈을 활용하고자 할 때 <b>경로의 약어</b>를 뜻합니다.
@@ -196,7 +197,7 @@
                     <span class="under-text">[ 각 확장자에 따른 module 설정 ]</span>
                 </div>
                 <p>
-                    Webpack이 기본적으로 제공하는 기능외에 3rd party에서 제공하는 기능이 필요하다면
+                    Webpack이 기본적으로 제공하는 기능외에 3rd 파티에서 제공하는 기능이 필요하다면
                     plugin 설정을 통해서 위와 같이 활용할 수 있습니다(위 코드는 특정 경로의 html파일을 번들링시
                     그대로 output경로로 복사하는 플러그인입니다)
                 </p>
@@ -224,7 +225,7 @@
                         <br><br>
                         Vue 3.x 부터는 대부분의 객체 활용을 '함수지향형'으로하고 있다는 것을 보여주며,
                         Vue.js에서의 필수 라이브러리나 마찬가지인 vue-router도 Vue 3.x에 대응되는 버전부터는
-                        createRouter 함수를 통해 router 객체를 생성하도록 하고 있습니다.
+                        createRouter 함수를 통해 router 객체를 생성하도록 하고 있습니다.<br>
                     </p>
                 </div>
             </div>

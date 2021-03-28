@@ -6,6 +6,9 @@ module.exports = {
     assetsDir: 'assets', // prefix 'dist/'
     filenameHashing: true,
     configureWebpack: {
+        output: {
+            filename: 'build.[hash].js',
+        },
         resolve: {
             extensions: ['.js', '.vue', '.json'], //확장자를 제거하고 불러낼수 있다.
             alias: {

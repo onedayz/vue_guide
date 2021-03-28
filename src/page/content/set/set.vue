@@ -30,8 +30,8 @@
             <div class="content-level-1">
                 <p class="third-title"><span class="index">#02.</span> 설치하기</p>
 
-                <p class="fourth-title">1) 다운로드</p>
                 <div class="content-level-2">
+                    <p class="fourth-title">1) 다운로드</p>
                     <p><a href="https://nodejs.org/ko/" target="_blank">Node.js 페이지</a>로 접속합니다.</p>
                     <p>아래와 같이 첫 페이지에서 다운로드 기능을 제공하고 있으며 본인의 OS와 bit를 확인하여 알맞는 LTS버전을 다운받기를 추천드립니다.</p>
                     <div class="image-box">
@@ -40,13 +40,13 @@
                     </div>
                 </div>
 
-                <p class="fourth-title">2) 설치</p>
                 <div class="content-level-2">
+                    <p class="fourth-title">2) 설치</p>
                     <p>Windows OS 기준으로 msi 파일이 다운로드되며, 실행하여 설치해줍니다.</p>
                 </div>
 
-                <p class="fourth-title">3) 확인</p>
                 <div class="content-level-2">
+                    <p class="fourth-title">3) 확인</p>
                     <p>설치 확인은 cmd 창을 통해 아래 2개 명령어를 실행함으로써 확인하실 수 있습니다.</p>
                     <p>※ node와 npm의 버전은 각각 차이가 나는 게 맞습니다</p>
                     <div class="gray-box">
@@ -66,8 +66,9 @@
             <div class="sub-title"><span class="index">-1.</span> 별첨</div>
             <div class="content-level-1">
                 <p class="third-title"><span class="index">#01.</span> Node.js 관련 이슈</p>
-                <p class="fourth-title">1) git에서 git:// 프로토콜로 실행이 안 될 경우</p>
                 <div class="content-level-2">
+                    <p class="fourth-title">1) git에서 git:// 프로토콜로 실행이 안 될 경우</p>
+
                     <p>해당 내용의 경우 npm이 아닌 git의 설정을 아래와 같이 변경해주어야 한다.</p>
                     <div class="gray-box">
                         <p>git config --global url.https://github.com/.insteadOf git://github.com/</p>

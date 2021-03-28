@@ -60,8 +60,8 @@ $_unit-height: 50px;
     &:active{background-color: $color__vue; color: $font__color-default;}
 }
 .menu-name__depth{
-    &-2{padding-left:$_unit-padding*2; background-color: $color__teal-700}
-    &-3{padding-left:$_unit-padding*4; background-color: $color__teal-600}
+    &-2{padding-left:$_unit-padding*2; background-color: $color__teal-700; font-size: 14px;}
+    &-3{padding-left:$_unit-padding*4; background-color: $color__teal-600; font-size: 12px;}
 }
 .folding-icon{
     position: absolute;top: 14px; right: $_unit-padding*2;
