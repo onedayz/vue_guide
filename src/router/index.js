@@ -27,12 +27,10 @@ import Install from '@page/content/starter/install';
 import Directory from '@page/content/starter/directory';
 import Playground from '@page/content/starter/playground';
 import Biscuit from '@page/content/eg/Biscuit';
-// import Msweeper from '@page/content/eg/01/Msweeper';
 
 
 
 import NotFound from '@page/notFound';
-import componentCustom from "@page/content/usable/componentCustom";
 
 const index = [
     { path: '/', redirect: '/home' },
@@ -74,7 +72,6 @@ const index = [
     { path: '/starter/playground',  component: Playground},
 
     {path: '/biscuit', component: Biscuit},
-    // {path: 'msweeper', component: Msweeper},
 
     { path: '/:catchAll(.*)', component: NotFound },
 ]

@@ -93,7 +93,7 @@
                 <p class="fourth-title">2) 해결법</p>
                 <div class="content-level-2">
                     <p>
-                        beforeDestroy 라이프 사이클을 활용하여 해당 input태그를 제거해주어야 합니다.
+                        beforeUnmount 라이프 사이클을 활용하여 해당 input태그를 제거해주어야 합니다.
                     </p>
                 </div>
             </div>

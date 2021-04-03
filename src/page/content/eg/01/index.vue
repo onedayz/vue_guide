@@ -51,7 +51,7 @@ export default {
     mounted(){
         document.getElementsByClassName('frame-side')[0].style['display'] = 'none';
     },
-    beforeDestroy() {
+    beforeUnmount() {
         document.getElementsByClassName('frame-side')[0].style['display'] = 'block';
     },
 };
@@ -64,8 +64,8 @@ export default {
     padding: 20px;
     display: flex; justify-content: center; align-items: center;
     flex-direction: column;
-    background-color: $ur__color--gray-80;
-    color: $ur__color--gray-20;
+    background-color: $color__gray-800;
+    color:  $color__gray-200;
     .title{
         position: absolute;
         top: 48px;left: calc(50% - 230px);
@@ -96,8 +96,8 @@ ul {list-style: none;}
     padding: 2px 4px;
     cursor: pointer;
 }
-.toolbar > li > .context-menu:hover:not(.help) {border: outset 1px #ddd; background-color: $ur__color--gray-20; color:$ur__color--gray-80;}
-.toolbar > li.open > span {border: inset 1px $ur__color--gray-20;}
+.toolbar > li > .context-menu:hover:not(.help) {border: outset 1px #ddd; background-color: $color__gray-200; color:$color__gray-800;}
+.toolbar > li.open > span {border: inset 1px  $color__gray-200;}
 .toolbar > li.open .cancel {
     position: fixed;
     top: 0;
@@ -121,16 +121,16 @@ ul {list-style: none;}
     margin: 3px 1px 4px 1px;
 }
 .menu > ul {
-    border: outset 1px $ur__color--gray-20;
+    border: outset 1px $color__gray-200;
     width: 120px;
     padding: 1px;
-    color:$ur__color--gray-80;
+    color:$color__gray-800;
 }
 .menu > ul > li {padding: 4px 6px;}
 .menu > ul > li.checked > .check {visibility: visible;}
 .menu > ul > li > .check {visibility: hidden;}
 .menu > ul > li:hover {
-    color: $ur__color--white;
+    color: $color__white;
     background-color: #0000a8;
 }
 .check {font-weight: bolder;}

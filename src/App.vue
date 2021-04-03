@@ -50,5 +50,5 @@ body{
     font-family: "Noto Sans KR", Arial, sans-serif;
 }
 .app-content.folding{width: calc(100% - #{$frame-side__width-folding}); left: $frame-side__width-folding;}
-@import '~@/scss/globalClass.scss';
+@import '~@/scss';
 </style>

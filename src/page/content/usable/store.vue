@@ -85,7 +85,7 @@
             </div>
 
             <div class="content-level-1">
-                <p class="third-title"><span class="index">#02.</span> Mutation</p>
+                <p class="third-title"><span class="index">#02.</span> Mutations</p>
                 <p>
                     State가 '상태관리 라이브러리'라는 정의에서 <b>상태</b>를 담당했다면
                     Mutations은 <b>관리</b>를 담당하고 있습니다.<br>
@@ -94,7 +94,7 @@
                     여기까지 들으시면 굉장히 비슷한 개념이 하나 떠오르실 수도 있습니다.
                     바로 JAVA의 캡슐화(Encapsulation)입니다.
                     앞서서 State를 JAVA의 VO(혹은 DTO)와 비교해드렸었는데요.
-                    같은 맥락으로써, 매칭을 해보면 State가 Attribute, Mutationos가 Method 역할을 하고 있습니다.
+                    같은 맥락으로써, 매칭을 해보면 State가 Attribute, Mutations가 Method 역할을 하고 있습니다.
                 </p>
                 <div class="image-box">
                     <img src="@assets/example/vuex_mutations.jpg"/>

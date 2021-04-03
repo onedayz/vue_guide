@@ -15,6 +15,7 @@ module.exports = {
                 '@': path.join(__dirname, 'src'),
                 '@assets': path.join(__dirname, 'src/assets'),
                 '@page': path.join(__dirname, 'src/page'),
+                '@scss': path.join(__dirname, 'src/scss'),
             }
         },
         devtool: 'source-map',

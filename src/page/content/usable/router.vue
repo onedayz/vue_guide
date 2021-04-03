@@ -8,8 +8,8 @@
             <div class="content-level-1">
                 <p>
                     대부분의 웹 서비스는 N개의 화면들로 이루어져 있으며, URL의 변경에 따라 알맞게 매핑된 화면들이 호출되게 됩니다.<br>
-                    예를 들어, JSP를 기반으로 한 http://www.uidev.com 라는 사이트가 있다고 가정하겠습니다.
-                    이때 사용자가 http://www.uidev.com/main.do 라는 URL로 접근을 한다면 가장 뒤에 붙은
+                    예를 들어, JSP를 기반으로 한 http://www.vueguide.com 라는 사이트가 있다고 가정하겠습니다.
+                    이때 사용자가 http://www.vueguide.com/main.do 라는 URL로 접근을 한다면 가장 뒤에 붙은
                     'main.do'가 path의 역할을 담당하며 그에 맞게 매핑된 main.jsp와 같은 파일을 호출하게 됩니다.
                     <br><br>
                     SPA 형태로 제공되는 웹 서비스도 이와크게 다르지 않습니다.
@@ -108,9 +108,9 @@
                         <span class="under-text">[ path와 redirect간의 정의 ]</span>
                     </div>
                     <p>
-                        이 경우는 'http://www.uidev.com/#<b>/base</b>'로 접근시
+                        이 경우는 'http://www.vueguide.com/#<b>/base</b>'로 접근시
                         'http://www.uidev.com/#<b>/base/mandatory</b>'로 경로가 변경되게되며
-                        본예제를 기준으로는 한 번 더 'http://www.uidev.com/#<b>/base/mandatory/spa</b>'로 URL이 변경되어
+                        본예제를 기준으로는 한 번 더 'http://www.vueguide.com/#<b>/base/mandatory/spa</b>'로 URL이 변경되어
                         BaseSpa 컴포넌트가 App.vue의 &lt;router-view&gt; 태그 위치에 렌더링되게 됩니다.
                     </p>
                 </div>
@@ -130,7 +130,7 @@
                         이때 children 배열안에 정의된 요소들의 path에는 '/main'가 빠져있지만,
                         실제 URL을 통한 접근시에는 'http://www.vue.com/#<b>/main/intro</b>'로 접근해야
                         Intro 라는 컴포넌트가 렌더링되며<br>
-                        만약 '/main'를 기입하지않고 'http://www.uidev.com/#<b>/intro</b>'로 이동을 하려하면
+                        만약 '/main'를 기입하지않고 'http://www.vueguide.com/#<b>/intro</b>'로 이동을 하려하면
                         해당 path에 매핑된 컴포넌트가 존재하지 않기 때문에 Router에 정의한 사항을 따라 404 Not found 페이지로 이동하게 됩니다.
                     </p>
                 </div>

@@ -1,5 +1,5 @@
 <template>
-    <div class="lnb-frame" :class="{'folding' : foldable}">
+    <div class="side-frame" :class="{'folding' : foldable}">
         <div class="title" @click="$router.push('/home')">
             <h2>Vue.js Guide</h2>
         </div>
@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.lnb-frame{
+.side-frame{
     position: absolute;
     left: 0;top: 0;
     width: $frame-side__width; height: 100vh;
@@ -60,7 +60,7 @@ export default {
 }
 
 
-.lnb-frame.folding {
+.side-frame.folding {
     width: $frame-side__width-folding;
     .title{
         position: absolute; top: 172px; left: -134px; font-size: 12px;

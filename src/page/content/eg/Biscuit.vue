@@ -29,12 +29,12 @@
             <div class="msg-word sentence" style="top: 258px; left: 650px; font-size: 50px;">!</div>
             <div class="msg-word sentence" style="top: 244px; left: 712px; font-size: 128px; color: white;">&gt;ㅁ&lt;</div>
         </div>
-        <div class="biscuit-box">
-            <div class="biscuit-entrance" @click="$router.push('/msweeper')">
-                    <img class="biscuit" src="@assets/biscuit.png"/>
-                    <span class="jemok">밟으면 마이아파</span>
-                </div>
-        </div>
+<!--        <div class="biscuit-box">-->
+<!--            <div class="biscuit-entrance" @click="$router.push('/msweeper')">-->
+<!--                    <img class="biscuit" src="@assets/biscuit.png"/>-->
+<!--                    <span class="jemok">밟으면 마이아파</span>-->
+<!--                </div>-->
+<!--        </div>-->
 
         <div style="display: none;">
             <h5>1. 팩맨</h5>
@@ -49,10 +49,18 @@
 <script>
 export default {
     mounted(){
-        document.getElementsByClassName('frame-side')[0].style['display'] = 'none';
+        // document.getElementsByClassName('side-frame')[0].style['display'] = 'none';
+        // this.app = document.getElementsByClassName('app-content')[0];
+        // this.app.style['left'] = 0; this.app.style['width'] = '100%';
     },
     beforeUnmount() {
-        document.getElementsByClassName('frame-side')[0].style['display'] = 'block';
+        // document.getElementsByClassName('side-frame')[0].style['display'] = 'block';
+        // this.app.style['left'] = '280px'; this.app.style['width'] = 'calc(100% - 280px)';
+    },
+    data(){
+        return {
+            app: {}
+        }
     }
 };
 </script>
@@ -65,12 +73,12 @@ export default {
     color: $color__gray-200;
     padding: 20px;
     display: flex; justify-content: center; align-items: center;
-    flex-direction: column;
+    flex-direction: column; z-index: 1001;
 }
 .biscuit-msg{
     font-size: 64px;
     font-weight: bold;
-    position: absolute; top: 48px; left: 25%;
+    position: absolute; top: 48px;
     width: 1000px;
     .msg-word{
         position: absolute;
