@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    publicPath: '/',
+    publicPath: '',
     outputDir: 'docs',
     assetsDir: 'assets', // prefix 'dist/'
     filenameHashing: true,
