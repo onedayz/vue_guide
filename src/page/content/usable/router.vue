@@ -276,13 +276,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "router"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

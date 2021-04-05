@@ -8,7 +8,7 @@
             <div class="content-level-1">
                 <p class="third-title"><span class="index">#01.</span> Summary</p>
                 <p>
-                    Vue 스타터 프로젝트는 UI Dev IDE를 통해 생성된 프로젝트로써, 아래와 같이 매우 심플한 구조를 가지고 있습니다.<br>
+                    Vue 스타터 프로젝트는 Vue-cli 3를 통해 생성된 프로젝트로써, 아래와 같이 매우 심플한 구조를 가지고 있습니다.<br>
                 </p>
                 <div class="image-box">
                     <img src="@assets/example/starter_directory_explain.jpg"/>
@@ -279,13 +279,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: 'directory'
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

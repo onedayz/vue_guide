@@ -195,13 +195,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: 'scss'
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

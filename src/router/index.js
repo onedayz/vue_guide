@@ -82,6 +82,7 @@ const router = createRouter({
 });
 
 router.beforeEach((to,from,next) => {
+    document.getElementsByClassName('app-content')[0].scrollTop = 0;
     next();
 })
 

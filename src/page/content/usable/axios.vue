@@ -115,13 +115,3 @@
 
     </div>
 </template>
-
-<script>
-export default {
-    name: "axios"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

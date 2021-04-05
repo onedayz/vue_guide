@@ -70,13 +70,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: 'spa'
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

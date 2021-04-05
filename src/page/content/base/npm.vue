@@ -140,13 +140,3 @@
 
     </div>
 </template>
-
-<script>
-export default {
-    name: 'npm'
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

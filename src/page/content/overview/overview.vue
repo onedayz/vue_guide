@@ -9,7 +9,7 @@
                     Vue는 구글 출신 개발자인 Evan You에 의해 만들어진 프론트엔드 프레임워크 라이브러리입니다.<br>
                     웹 애플리케이션의 클라이언트(사용자 인터페이스) 개발을 위해 사용되는
                     오픈 소스이며, 자바스크립트를 기반으로 한 프레임워크입니다.
-                    구글에서 Angular를 사용해 개발하던 Evan You는 ANgular의 장점만을 추출하여 정리한 뒤에,
+                    구글에서 Angular를 사용해 개발하던 Evan You는 Angular의 장점만을 추출하여 정리한 뒤에,
                     기능을 추가하면서도 <b>가벼운</b> 프레임워크를 만들기를 희망했으며 그것이 Vue를 개발하게 된 동기라고 했습니다.
                     <br><br>
                     2014년에 릴리즈 된 Vue의 1.x 버전은 Angular와 React에 비해 그렇게 큰 이목을 끌지 못 하였으나, <br>
@@ -94,13 +94,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "overview"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

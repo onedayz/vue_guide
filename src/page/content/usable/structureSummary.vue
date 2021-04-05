@@ -61,13 +61,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "structureSummary"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

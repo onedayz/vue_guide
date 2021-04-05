@@ -143,13 +143,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "performance"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

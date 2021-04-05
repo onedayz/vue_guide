@@ -30,13 +30,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "componentSummary"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

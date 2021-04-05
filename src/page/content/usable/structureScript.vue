@@ -302,13 +302,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "script"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

@@ -121,13 +121,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "componentCustom"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

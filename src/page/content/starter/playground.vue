@@ -47,7 +47,7 @@
             <div class="sub-title"><span class="index">2.</span> Level 2<span class="mini-title"> : Vue 디렉티브</span></div><!-- Vue 파일 기본 -->
             <div class="content-level-1">
                 <div class="gray-box">
-                    <p>파일경로 : src/layouts/contents/pages/playground/<b class="file-name">Directive.vue</b></p>
+                    <p>파일경로 : src/page/playground/<b class="file-name">directive.vue</b></p>
                 </div>
                 <p>
                     Vue에서 활용가능한 다양한 디렉티브의 예제를 제공합니다.<br>
@@ -94,7 +94,7 @@
                     반대로 pivot이 0일경우에는 짝수번째 데이터만 보이게 됩니다.
                 </p>
                 <div class="image-box">
-<!--                    <img src="@assets/example/starter_v_show.jpg"/>-->
+                    <img src="@assets/example/starter_v_show.jpg"/>
                     <span class="under-text">[ v-show와 Element ]</span>
                 </div>
                 <p>
@@ -102,7 +102,7 @@
                     <b>조건을 충족하지 못 한 DOM들은 CSS의 display 속성이 none</b>으로 적용되어있는 걸 알 수 있습니다.
                 </p>
                 <div class="image-box">
-<!--                    <img src="@assets/example/starter_v_if.jpg"/>-->
+                    <img src="@assets/example/starter_v_if.jpg"/>
                     <span class="under-text">[ v-if와 Element ]</span>
                 </div>
                 <p>
@@ -174,7 +174,7 @@
             <div class="sub-title"><span class="index">3.</span> Level 3<span class="mini-title"> : Lifecycle & Watch</span></div><!-- Vue 파일 기본 -->
             <div class="content-level-1">
                 <div class="gray-box">
-                    <p>파일경로 : src/layouts/contents/pages/playground/<b class="file-name">Lifecycle.vue</b></p>
+                    <p>파일경로 : src/page/playground/<b class="file-name">lifecycle.vue</b></p>
                 </div>
             </div>
             <div class="content-level-1">
@@ -224,7 +224,7 @@
             <div class="sub-title"><span class="index">4.</span> Level 4<span class="mini-title"> : 컴포넌트</span></div><!-- Vue 파일 기본 -->
             <div class="content-level-1">
                 <div class="gray-box">
-                    <p>파일경로 : src/page/playground/<b class="file-name">Component.vue</b></p>
+                    <p>파일경로 : src/page/playground/<b class="file-name">comp.vue</b></p>
                 </div>
                 <p>
                     Vue로 만들어진 모듈은 모두 '컴포넌트'라고 정의할 수 있으며, 이에따라 import를 통해 어디서든 재사용이 가능합니다.
@@ -246,7 +246,7 @@
                     3. 실제로 코드로 활용되어야 합니다(&lt;template&gt;영역에 정의)
                 </p>
                 <div class="image-box">
-<!--                    <img src="@assets/example/starter_custom_component.jpg"/>-->
+                    <img src="@assets/example/starter_custom_component.jpg"/>
                     <span class="under-text">[ Custom Component의 사용법 ]</span>
                 </div>
                 <p>
@@ -266,24 +266,25 @@
             <div class="sub-title"><span class="index">5.</span> Level 5<span class="mini-title"> : 스토어</span></div><!-- Vue 파일 기본 -->
             <div class="content-level-1">
                 <div class="gray-box">
-                    <p>파일경로1 : src/page/playground/<b class="file-name">Store.vue</b></p>
-                    <p>파일경로2 : src/store/sample/<b class="file-name">sample.js</b></p>
+                    <p>파일경로1 : src/page/playground/<b class="file-name">store.vue</b></p>
+                    <p>파일경로2 : src/store/sample/<b class="file-name">index.js</b></p>
                 </div>
                 <p>
-                    스토어는 전역 저장소의 개념이기 때문에,
-                    특정 값을 스토어에 저장하고 라이프사이클이 달라지는 Level 6: 그리드 페이지에서
-                    해당 데이터를 활용하는 예제를 코드로 작성하였습니다.
+                    스토어는 전역 저장소의 개념이기 때문에, 예제로 제공하는 코드에서 전역으로 활용되는 값을 수정하게끔 작성했습니다.
+                    여기서 예제로 쓰인 데이터는 Language라는 변수인데, 웹 서비스에서 문자들의 다국어 처리를 위한 '언어'값을 가리키는 변수로 가정하였습니다.
+                    그래서 Language라는 값은 어떤 화면에서도 접근이 가능해야하며, store.vue 파일에서 값을 변경해보면
+                    전혀 다른 vue 파일로 구성된 스타터의 GNB에서, 보여지는 값이 함께 변하는 것을 확인하실 수 있을 겁니다.
                     <br><br>
-                    여기서 sample.js 파일은 Vuex 저장소로 활용되는 파일이며 이를위해 state, mutations, actions, getters가 정의되어 있습니다.
-                    파일을 열어보시면 state에는 perPage라는 숫자형 변수가 존재하며
-                    actions에서는 setPerPage 라는 함수를 선언하였고 이와 동시에 전달된 값에 대해 필요한 추가로직을 정의하였습니다.
-                    마찬가지로 mutations에는 setPerPage라는 함수를 정의하여 state의 perPage 값을 변경합니다.
-                    getters는 이러한 perPage의 값이 필요한 Vue 파일에서 호출하는 함수를 정의해줍니다.
+                    여기서 sample/index.js 파일은 Vuex 저장소로 활용되는 파일이며 이를위해 state, mutations, actions, getters가 정의되어 있습니다.
+                    파일을 열어보시면 state에는 전역으로 활용될 만한 예시 데이터로써 language와 user가 존재하며
+                    actions에서는 changeLanguage와 setUserInfo와 같은 함수를 선언하였고 이와 동시에 전달된 값에 대해 필요한 추가로직을 정의하였습니다.
+                    마찬가지로 mutations에도 chagneLanguar, setUsetInfo라는 함수를 정의하여 각각 state의 language와 user의 값을 변경하고 있습니다.
+                    그리고 이러한 state의 값들은 getters에 정의한 리턴전용 함수를 통해 Store의 저장 값을 활용하고자하는 Vue 파일 어디에서든 호출이 가능해지는 것입니다.
                     <br><br>
-                    Vue 파일에서는 이런 스토어에대해 <b>this.$store</b>라는 객체를 통해 접근하됩니다.
-                    (이 객체는 new Vue 키워드를 통해 Vue 인스턴스를 생성하면서 파라미터로 전달한 그 객체입니다)
-                    이제 화면에서 버튼을 클릭하거나 텍스트필드의 값을 변경하면, changePerPage라는 메서드가 호출되고
-                    메서드 안에는 <b>this.$store.dispatch('setPerPage', 1*value)</b>를 통해서 sample.js의 setPerPage라는 actions를 호출하고 있습니다.
+                    Vuex에서는 이와 같은 Store에 접근하기 위해 <b>this.$store</b>라는 객체를 제공하며, 우리는 entry파일에서
+                    Vue Application 인스턴스에 Vuex를 플러그인으로 심어줬기때문에 this.$store를 활용할 수가 있는 것입니다.
+                    이제 화면에서 버튼을 클릭하면, changeLanguage라는 메서드가 호출되고
+                    메서드 안에있는 <b>this.$store.dispatch('changeLanguage', language)</b>를 통해서 sample/index.js의 changeLanguage라는 actions를 호출하게 됩니다.
                 </p>
             </div>
         </div>

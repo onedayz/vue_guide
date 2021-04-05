@@ -71,13 +71,3 @@
         </div>
     </div>
 </template>
-
-<script>
-export default {
-    name: "style"
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>

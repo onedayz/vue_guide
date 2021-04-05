@@ -54,8 +54,6 @@
                     이처럼 Webpack은 다양한 옵션을 통해서 번들링을 위한 설정을 커스터마이징 할 수 있습니다.
                     Vue-cli 3로 생성한 프로젝트의 경우 vue.config.js 파일이 Webpack에 대한 설정을 담당하도록 되어있으며
                     이전 버전의 Vue-cli를 통해 생성된 프로젝트의 경우 webpack.config.js와 유사항 명칭으로 사용되고 있습니다.
-                    <br>
-                    (UI Dev IDE를 통해 생성되는 프로젝트는 Vue-cli 3를 기반으로 하고 있으며 vue.config.js 파일이 생성됩니다)
                     <br><br>
                     여기서는 주요한 몇 가지의 설정만을 설명하며, 모든 옵션은
                     <a href="https://webpack.js.org/concepts/entry-points/" target="_blank>">이 링크</a>를 참고해주시기 바랍니다)
@@ -243,13 +241,3 @@
 
     </div>
 </template>
-
-<script>
-export default {
-    name: 'webpack'
-}
-</script>
-
-<style lang="scss" scoped>
-
-</style>
